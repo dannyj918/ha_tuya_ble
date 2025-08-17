@@ -300,6 +300,23 @@ devices_database: dict[str, TuyaBLECategoryInfo] = {
             ),
         },
     ),
+    "kg": TuyaBLECategoryInfo(
+        products={
+            "bs3ubslo": TuyaBLEProductInfo(  # device product_id
+                name="Dual Fingerbot",
+                fingerbot=TuyaBLEFingerbotInfo(
+                    switch=1,  # switch_1
+                    mode=101,  # mode_1
+                    up_position=0,  # Will need to determine actual values
+                    down_position=0,  # Will need to determine actual values
+                    hold_time=103,  # touch_time_1
+                    reverse_positions=107,  # invert_switch_1
+                    manual_control=105,  # touch_enable_1
+                    program=111,  # custom_week_program_1
+                ),
+            ),
+        },
+    ),
 }
 
 

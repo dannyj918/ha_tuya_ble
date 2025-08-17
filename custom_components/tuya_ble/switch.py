@@ -328,6 +328,28 @@ mapping: dict[str, TuyaBLECategorySwitchMapping] = {
             ],
         },
     ),
+    "kg": TuyaBLECategorySwitchMapping(
+        products={
+            "bs3ubslo": [  # Dual Fingerbot
+                TuyaBLESwitchMapping(
+                    dp_id=1,
+                    description=SwitchEntityDescription(
+                        key="switch_1",
+                        name="Switch 1",
+                        entity_registry_enabled_default=True,
+                    ),
+                ),
+                TuyaBLESwitchMapping(
+                    dp_id=2,
+                    description=SwitchEntityDescription(
+                        key="switch_2", 
+                        name="Switch 2",
+                        entity_registry_enabled_default=True,
+                    ),
+                ),
+            ],
+        },
+    ),
 }
 
 

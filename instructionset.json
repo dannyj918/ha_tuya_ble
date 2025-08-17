@@ -1,0 +1,265 @@
+{
+  "result": {
+    "category": "kg",
+    "functions": [
+      {
+        "code": "switch_1",
+        "dp_id": 1,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "switch_2",
+        "dp_id": 2,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "mode_1",
+        "dp_id": 101,
+        "type": "Enum",
+        "values": "{\"range\":[\"click\",\"switch\",\"program\"]}"
+      },
+      {
+        "code": "mode_2",
+        "dp_id": 102,
+        "type": "Enum",
+        "values": "{\"range\":[\"click\",\"switch\",\"program\"]}"
+      },
+      {
+        "code": "touch_time_1",
+        "dp_id": 103,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":100,\"max\":10000,\"scale\":0,\"step\":100}"
+      },
+      {
+        "code": "touch_time_2",
+        "dp_id": 104,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":100,\"max\":10000,\"scale\":0,\"step\":100}"
+      },
+      {
+        "code": "touch_enable_1",
+        "dp_id": 105,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "touch_enable_2",
+        "dp_id": 106,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "invert_switch_1",
+        "dp_id": 107,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "invert_switch_2",
+        "dp_id": 108,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "custom_timer_1",
+        "dp_id": 109,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_timer_2",
+        "dp_id": 110,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_week_program_1",
+        "dp_id": 111,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_week_program_2",
+        "dp_id": 112,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_week_program_3",
+        "dp_id": 113,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_week_program_4",
+        "dp_id": 114,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "off_touch_time_1",
+        "dp_id": 117,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":100,\"max\":10000,\"scale\":0,\"step\":100}"
+      },
+      {
+        "code": "off_touch_time_2",
+        "dp_id": 118,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":100,\"max\":10000,\"scale\":0,\"step\":100}"
+      },
+      {
+        "code": "double_touch_invert_1",
+        "dp_id": 119,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":0,\"max\":100,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "double_touch_invert_2",
+        "dp_id": 120,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":0,\"max\":100,\"scale\":0,\"step\":1}"
+      }
+    ],
+    "lang_config": {},
+    "status": [
+      {
+        "code": "switch_1",
+        "dp_id": 1,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "switch_2",
+        "dp_id": 2,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "mode_1",
+        "dp_id": 101,
+        "type": "Enum",
+        "values": "{\"range\":[\"click\",\"switch\",\"program\"]}"
+      },
+      {
+        "code": "mode_2",
+        "dp_id": 102,
+        "type": "Enum",
+        "values": "{\"range\":[\"click\",\"switch\",\"program\"]}"
+      },
+      {
+        "code": "touch_time_1",
+        "dp_id": 103,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":100,\"max\":10000,\"scale\":0,\"step\":100}"
+      },
+      {
+        "code": "touch_time_2",
+        "dp_id": 104,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":100,\"max\":10000,\"scale\":0,\"step\":100}"
+      },
+      {
+        "code": "touch_enable_1",
+        "dp_id": 105,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "touch_enable_2",
+        "dp_id": 106,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "invert_switch_1",
+        "dp_id": 107,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "invert_switch_2",
+        "dp_id": 108,
+        "type": "Boolean",
+        "values": "{}"
+      },
+      {
+        "code": "custom_timer_1",
+        "dp_id": 109,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_timer_2",
+        "dp_id": 110,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_week_program_1",
+        "dp_id": 111,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_week_program_2",
+        "dp_id": 112,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_week_program_3",
+        "dp_id": 113,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "custom_week_program_4",
+        "dp_id": 114,
+        "type": "Raw",
+        "values": "{\"maxlen\":128}"
+      },
+      {
+        "code": "battery_percentage",
+        "dp_id": 115,
+        "type": "Integer",
+        "values": "{\"unit\":\"%\",\"min\":1,\"max\":100,\"scale\":0,\"step\":10}"
+      },
+      {
+        "code": "charge_status",
+        "dp_id": 116,
+        "type": "Enum",
+        "values": "{\"range\":[\"none\",\"charging\",\"charge_done\"]}"
+      },
+      {
+        "code": "off_touch_time_1",
+        "dp_id": 117,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":100,\"max\":10000,\"scale\":0,\"step\":100}"
+      },
+      {
+        "code": "off_touch_time_2",
+        "dp_id": 118,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":100,\"max\":10000,\"scale\":0,\"step\":100}"
+      },
+      {
+        "code": "double_touch_invert_1",
+        "dp_id": 119,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":0,\"max\":100,\"scale\":0,\"step\":1}"
+      },
+      {
+        "code": "double_touch_invert_2",
+        "dp_id": 120,
+        "type": "Integer",
+        "values": "{\"unit\":\"ms\",\"min\":0,\"max\":100,\"scale\":0,\"step\":1}"
+      }
+    ]
+  },
+  "success": true,
+  "t": 1755444555030,
+  "tid": "eebc36ed7b7e11f0ad5f1a96caf0cb23"
+}
