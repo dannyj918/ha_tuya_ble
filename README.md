@@ -48,6 +48,11 @@ The integration works locally, but connection to Tuya BLE device requires device
 * Irrigation computer (category_id 'ggq')
   + Irrigation computer (product_id '6pahkcau')
 
+* Dual Fingerbots (category_id 'kg')
+  + Fingerbot Touch (product_id 'bs3ubslo'), dual switch device with independent controls for each switch.
+
+  Features include dual switches, mode controls (click/switch/program), timing adjustments, touch enable/disable, invert controls, and custom programming support for both switches.
+
 ## Support project
 The original support request still applies - I'm happy to contribute to the community without reward.  If you want to contribule please donate as below.
 

@@ -303,7 +303,7 @@ devices_database: dict[str, TuyaBLECategoryInfo] = {
     "kg": TuyaBLECategoryInfo(
         products={
             "bs3ubslo": TuyaBLEProductInfo(  # device product_id
-                name="Dual Fingerbot",
+                name="Fingerbot Touch",
                 fingerbot=TuyaBLEFingerbotInfo(
                     switch=1,  # switch_1
                     mode=101,  # mode_1
