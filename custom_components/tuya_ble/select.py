@@ -204,6 +204,30 @@ mapping: dict[str, TuyaBLECategorySelectMapping] = {
             ],
         },
     ),
+    "kg": TuyaBLECategorySelectMapping(
+        products={
+            "bs3ubslo": [  # Dual Fingerbot
+                TuyaBLESelectMapping(
+                    dp_id=101,
+                    description=SelectEntityDescription(
+                        key="mode_1",
+                        name="Mode 1",
+                        options=["click", "switch", "program"],
+                        entity_category=EntityCategory.CONFIG,
+                    ),
+                ),
+                TuyaBLESelectMapping(
+                    dp_id=102,
+                    description=SelectEntityDescription(
+                        key="mode_2",
+                        name="Mode 2",
+                        options=["click", "switch", "program"],
+                        entity_category=EntityCategory.CONFIG,
+                    ),
+                ),
+            ],
+        },
+    ),
 }
 
 

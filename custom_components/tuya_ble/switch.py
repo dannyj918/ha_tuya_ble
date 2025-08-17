@@ -347,6 +347,42 @@ mapping: dict[str, TuyaBLECategorySwitchMapping] = {
                         entity_registry_enabled_default=True,
                     ),
                 ),
+                TuyaBLESwitchMapping(
+                    dp_id=105,
+                    description=SwitchEntityDescription(
+                        key="touch_enable_1",
+                        name="Touch Enable 1",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+                TuyaBLESwitchMapping(
+                    dp_id=106,
+                    description=SwitchEntityDescription(
+                        key="touch_enable_2",
+                        name="Touch Enable 2",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+                TuyaBLESwitchMapping(
+                    dp_id=107,
+                    description=SwitchEntityDescription(
+                        key="invert_switch_1",
+                        name="Invert Switch 1",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+                TuyaBLESwitchMapping(
+                    dp_id=108,
+                    description=SwitchEntityDescription(
+                        key="invert_switch_2",
+                        name="Invert Switch 2",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
             ],
         },
     ),

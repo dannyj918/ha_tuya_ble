@@ -142,6 +142,66 @@ mapping: dict[str, TuyaBLECategoryTextMapping] = {
             ),
         },
     ),
+    "kg": TuyaBLECategoryTextMapping(
+        products={
+            "bs3ubslo": [  # Dual Fingerbot
+                TuyaBLETextMapping(
+                    dp_id=109,
+                    description=TextEntityDescription(
+                        key="custom_timer_1",
+                        name="Custom Timer 1",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+                TuyaBLETextMapping(
+                    dp_id=110,
+                    description=TextEntityDescription(
+                        key="custom_timer_2",
+                        name="Custom Timer 2",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+                TuyaBLETextMapping(
+                    dp_id=111,
+                    description=TextEntityDescription(
+                        key="custom_week_program_1",
+                        name="Custom Week Program 1",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+                TuyaBLETextMapping(
+                    dp_id=112,
+                    description=TextEntityDescription(
+                        key="custom_week_program_2",
+                        name="Custom Week Program 2",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+                TuyaBLETextMapping(
+                    dp_id=113,
+                    description=TextEntityDescription(
+                        key="custom_week_program_3",
+                        name="Custom Week Program 3",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+                TuyaBLETextMapping(
+                    dp_id=114,
+                    description=TextEntityDescription(
+                        key="custom_week_program_4",
+                        name="Custom Week Program 4",
+                        entity_category=EntityCategory.CONFIG,
+                        entity_registry_enabled_default=False,
+                    ),
+                ),
+            ],
+        },
+    ),
 }
 
 

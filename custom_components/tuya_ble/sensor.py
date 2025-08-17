@@ -305,6 +305,31 @@ mapping: dict[str, TuyaBLECategorySensorMapping] = {
             ],
         },
     ),
+    "kg": TuyaBLECategorySensorMapping(
+        products={
+            "bs3ubslo": [  # Dual Fingerbot
+                TuyaBLESensorMapping(
+                    dp_id=115,
+                    description=SensorEntityDescription(
+                        key="battery_percentage",
+                        device_class=SensorDeviceClass.BATTERY,
+                        native_unit_of_measurement=PERCENTAGE,
+                        state_class=SensorStateClass.MEASUREMENT,
+                        entity_category=EntityCategory.DIAGNOSTIC,
+                    ),
+                ),
+                TuyaBLESensorMapping(
+                    dp_id=116,
+                    description=SensorEntityDescription(
+                        key="charge_status",
+                        device_class=SensorDeviceClass.ENUM,
+                        options=["none", "charging", "charge_done"],
+                        entity_category=EntityCategory.DIAGNOSTIC,
+                    ),
+                ),
+            ],
+        },
+    ),
 }
 
 

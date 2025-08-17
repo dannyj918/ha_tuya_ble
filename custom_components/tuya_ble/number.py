@@ -445,6 +445,84 @@ mapping: dict[str, TuyaBLECategoryNumberMapping] = {
             ],
         },
     ),
+    "kg": TuyaBLECategoryNumberMapping(
+        products={
+            "bs3ubslo": [  # Dual Fingerbot
+                TuyaBLENumberMapping(
+                    dp_id=103,
+                    description=NumberEntityDescription(
+                        key="touch_time_1",
+                        name="Touch Time 1",
+                        native_max_value=10000,
+                        native_min_value=100,
+                        native_unit_of_measurement=UnitOfTime.MILLISECONDS,
+                        native_step=100,
+                        entity_category=EntityCategory.CONFIG,
+                    ),
+                ),
+                TuyaBLENumberMapping(
+                    dp_id=104,
+                    description=NumberEntityDescription(
+                        key="touch_time_2",
+                        name="Touch Time 2",
+                        native_max_value=10000,
+                        native_min_value=100,
+                        native_unit_of_measurement=UnitOfTime.MILLISECONDS,
+                        native_step=100,
+                        entity_category=EntityCategory.CONFIG,
+                    ),
+                ),
+                TuyaBLENumberMapping(
+                    dp_id=117,
+                    description=NumberEntityDescription(
+                        key="off_touch_time_1",
+                        name="Off Touch Time 1",
+                        native_max_value=10000,
+                        native_min_value=100,
+                        native_unit_of_measurement=UnitOfTime.MILLISECONDS,
+                        native_step=100,
+                        entity_category=EntityCategory.CONFIG,
+                    ),
+                ),
+                TuyaBLENumberMapping(
+                    dp_id=118,
+                    description=NumberEntityDescription(
+                        key="off_touch_time_2",
+                        name="Off Touch Time 2",
+                        native_max_value=10000,
+                        native_min_value=100,
+                        native_unit_of_measurement=UnitOfTime.MILLISECONDS,
+                        native_step=100,
+                        entity_category=EntityCategory.CONFIG,
+                    ),
+                ),
+                TuyaBLENumberMapping(
+                    dp_id=119,
+                    description=NumberEntityDescription(
+                        key="double_touch_invert_1",
+                        name="Double Touch Invert 1",
+                        native_max_value=100,
+                        native_min_value=0,
+                        native_unit_of_measurement=UnitOfTime.MILLISECONDS,
+                        native_step=1,
+                        entity_category=EntityCategory.CONFIG,
+                    ),
+                ),
+                TuyaBLENumberMapping(
+                    dp_id=120,
+                    description=NumberEntityDescription(
+                        key="double_touch_invert_2",
+                        name="Double Touch Invert 2",
+                        native_max_value=100,
+                        native_min_value=0,
+                        native_unit_of_measurement=UnitOfTime.MILLISECONDS,
+                        native_step=1,
+                        entity_category=EntityCategory.CONFIG,
+                    ),
+                ),
+            ],
+        },
+    ),
 }
 
 
